@@ -1,7 +1,8 @@
 h1 {
 	color: red;
 	font-family: "Arial", sans-serif;
-	font-size: 2.5em;  
+	font-size: 2.5em;
+	padding: 10px 20px 10px 20px;  
 }
 
 p {
