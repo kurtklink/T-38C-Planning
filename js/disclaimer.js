@@ -1,1 +1,1 @@
-alert("This tool is under development and should not be used in leiu of usual mission planning resources.");
+alert("UNOFFICIAL\nThis is a WIP and should not be used in lieu of offical mission planning resources.");
