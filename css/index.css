@@ -1,11 +1,23 @@
+/*Basic stuff*/
 h1 {
-	color: red;
+	color: rgb(130,15,15);
+	text-align: center;
 	font-family: "Arial", sans-serif;
 	font-size: 2.5em;
 }
 
 p {
-	color: blue;
+	color: black;
 	font-family: "Times New Roman", Times, serif;
-	font-size: 0.9em;
+	font-size: 1em;
+}
+
+/*paragraph classes and ids*/
+p.center {
+	text-align: center;
+}
+
+#titlecontainer {
+	border: 0.5em solid rgb(130,15,15);
+	margin: 2em;
 }
