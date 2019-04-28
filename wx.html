@@ -9,13 +9,21 @@
     	<!-- title box w/ disclaimer -->
     	<div id = "titlecontainer">
     	 	<h1>T-38C Weather Considerations</h1>
-    		<p class = "center">This site is a work in progress, use at your own risk.</p>
+    		<p style="text-align: center">This site is a work in progress, use at your own risk.</p>
     	</div>
-      <!-- navigation bar -->
-      <ul>
-        <li><a href="TOLD.html">TOLD</a></li>
-        <li><a href="wx.html">Weather</a></li>
-        <li><a href="nav.html">Navigation</a></li>
-      </ul>
+        <!-- navigation bar -->
+        <div class="topnav">
+            <a href="index.html">Home</a>
+            <a href="TOLD.html">TOLD</a>
+            <a class="active" href="wx.html">Weather</a>
+            <a href="nav.html">Navigation</a>
+        </div>
+        <div class="leftcolumn">
+            <div class="card">
+                <p>Station ID:</p>
+                <input type="text" id="StationID" value="KDLF">
+                <button class="button1">Get Weather</button>
+            </div>
+        </div>
 	</body>
 </html>

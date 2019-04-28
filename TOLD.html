@@ -9,13 +9,32 @@
     	<!-- title box w/ disclaimer -->
     	<div id = "titlecontainer">
     	 	<h1>T-38C TOLD Data</h1>
-    		<p class = "center">This site is a work in progress, use at your own risk.</p>
+    		<p style="text-align: center">This site is a work in progress, use at your own risk.</p>
     	</div>
-      <!-- navigation bar -->
-      <ul>
-        <li><a href="TOLD.html">TOLD</a></li>
-        <li><a href="wx.html">Weather</a></li>
-        <li><a href="nav.html">Navigation</a></li>
-      </ul>
-	</body>
+        <!-- navigation bar -->
+        <div class="topnav">
+            <a href="index.html">Home</a>
+            <a class="active" href="TOLD.html">TOLD</a>
+            <a href="wx.html">Weather</a>
+            <a href="nav.html">Navigation</a>
+        </div>
+        <div class="leftcolumn">
+            <div class="card">
+                <table style="width:100%">
+                    <tr>
+                        <th>Unit</th>
+                        <th>Input</th> 
+                    </tr>
+                    <tr>
+                        <td>Tempurature</td>
+                        <td><input type="number" id="TempC" value="15"></td> 
+                    </tr>
+                    <tr>
+                        <td>Pressure Altitude</td>
+                        <td><input type="number" id="PA" value="1000" width=100%></td> 
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </body>
 </html>
