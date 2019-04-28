@@ -3,10 +3,10 @@
   	<head>
     	<link rel="stylesheet" type="text/css" href="css/index.css">
     	<link rel="icon" href="img/t38favicon.ico">
+        <script type="text/javascript" src="js/wx.js"></script>
   	</head>
   	<body>
-    	<!--<script type="text/javascript" src="js/disclaimer.js"></script>-->
-    	<!-- title box w/ disclaimer -->
+    	<!-- title box -->
     	<div id = "titlecontainer">
     	 	<h1>T-38C Weather Considerations</h1>
     		<p style="text-align: center">This site is a work in progress, use at your own risk.</p>
@@ -22,7 +22,8 @@
             <div class="card">
                 <p>Station ID:</p>
                 <input type="text" id="StationID" value="KDLF">
-                <button class="button1">Get Weather</button>
+                <button class="button1" onclick="getWX()">Get Weather</button>
+                <p id="DTGfetched"></p>
             </div>
         </div>
 	</body>
