@@ -1,0 +1,29 @@
+<html>
+	<title> Weather </title>
+  	<head>
+    	<link rel="stylesheet" type="text/css" href="css/index.css">
+    	<link rel="icon" href="img/t38favicon.ico">
+        <script type="text/javascript" src="js/wx.js"></script>
+  	</head>
+  	<body>
+    	<div id = "titlecontainer">        <!-- title box -->
+    	 	<h1>T-38C Weather Considerations</h1>
+    		<p style="text-align: center">This site is a work in progress, use at your own risk.</p>
+    	</div>
+        <div class="topnav">         <!-- navigation bar -->
+            <a href="index.html">Home</a>
+            <a href="TOLD.html">TOLD</a>
+            <a class="active" href="wx.html">Weather</a>
+            <a href="nav.html">Navigation</a>
+        </div>
+        <div class="leftcolumn">  <!--  left column -->
+            <div class="card">
+                <p>Station ID:</p>
+                <input type="text" id="StationID" value="KDLF">
+                <button class="button1" onclick="getWX()">Get Weather</button>
+                <p id="DTGfetched"></p>
+                <p id="testOutput"></p>
+            </div>
+        </div>
+	</body>
+</html>
