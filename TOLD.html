@@ -3,14 +3,16 @@
   	<head>
     	<link rel="stylesheet" type="text/css" href="css/index.css">
     	<link rel="icon" href="img/t38favicon.ico">
+        <script type="text/javascript" src="js/TOLD.js"></script>
   	</head>
   	<body>
-    	<!--<script type="text/javascript" src="js/disclaimer.js"></script>-->
+
     	<!-- title box w/ disclaimer -->
     	<div id = "titlecontainer">
     	 	<h1>T-38C TOLD Data</h1>
     		<p style="text-align: center">This site is a work in progress, use at your own risk.</p>
     	</div>
+
         <!-- navigation bar -->
         <div class="topnav">
             <a href="index.html">Home</a>
@@ -18,8 +20,10 @@
             <a href="wx.html">Weather</a>
             <a href="nav.html">Navigation</a>
         </div>
+
         <div class="leftcolumn">
             <div class="card">
+
                 <table style="width:100%">
                     <tr>
                         <th>Unit</th>
@@ -31,9 +35,11 @@
                     </tr>
                     <tr>
                         <td>Pressure Altitude</td>
-                        <td><input type="number" id="PA" value="1000" width=100%></td> 
+                        <td><input type="number" id="PA" value="1000"></td> 
                     </tr>
                 </table>
+                <button class="button1" style="width:100%" onclick="runTOLD()">Run TOLD</button>
+                
             </div>
         </div>
     </body>
