@@ -1,5 +1,5 @@
 "use strict"
-function runTOLD{
+function runTOLD() {
     var Excel = require('exceljs');
     var workbook = new Excel.Workbook();
     workbook.xlsx.readFile('bin/TestWorkbook.xlsx')//Change file name here or give file path
